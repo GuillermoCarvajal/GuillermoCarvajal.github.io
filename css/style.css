@@ -15,11 +15,9 @@ html{
 
 /* Cabecera */
 .encabezado {
-    position: sticky;
-    top: 0;
     width: 100%;
     height: 100px;
-    background-color: #1e1f29;
+    background-color: #f6f6f6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,9 +31,8 @@ html{
     justify-content: space-between;
 }
 
-.menu a{
+.menu__a{
     text-decoration: none;
-    color: white;
 }
 
 .menu a:hover{
