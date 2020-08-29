@@ -1,3 +1,4 @@
+/* Estilos Generales */
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@ html{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 5rem;
 }
 
 .titulo{
@@ -74,7 +76,7 @@ html{
 
 /* Servicios Profesionales */
 .servicios{
-    background-color: #e1e1e1;
+    background-color: rgb(211, 211, 211);
 }
 
 .servicios__house{
@@ -86,11 +88,11 @@ html{
 }
 
 .item{
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
     list-style: none;
 }
 
 .item::first-letter{
-    color: blue;
+    color: red;
 }
