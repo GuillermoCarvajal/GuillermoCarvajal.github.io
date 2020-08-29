@@ -4,20 +4,35 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 10px;
+}
+
 .container{
     margin: 0 auto;
     max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-html{
-    font-size: 10px;
+.titulo{
+    font-size: 4rem;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.header-principal{
+    background-image: url(../img/main-city-copy-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 /* Cabecera */
 .encabezado {
     width: 100%;
     height: 100px;
-    background-color: #f6f6f6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,34 +48,28 @@ html{
 
 .menu__a{
     text-decoration: none;
+    color: white;
 }
 .menu__a:visited{
-    color: black;
+    color: white;
 }
-.menu a:hover{
+.menu__a:hover{
     color: rgb(200, 130, 0);
 }
 
 /* Principal */
 .hero{
-    background-image: url(https://i.imgur.com/ymZaVCQ.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.2);
     height: 600px;
     background-position-y: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.hero h1{
+.hero__titulo{
     font-family: 'Playfair Display', serif;
-    font-size: 6rem;
-    padding: 200px 200px;
-}
-
-.resaltado{
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 30px;
+    font-size: 8rem;
+    color: white;
 }
 
 /* Servicios Profesionales */
@@ -68,9 +77,12 @@ html{
     background-color: #e1e1e1;
 }
 
-.titulo{
-    font-size: 4rem;
-    padding: 5rem 0;
+.servicios__house{
+    width: 380px;
+}
+
+.servicios__house__img{
+    width: inherit;
 }
 
 .item{
