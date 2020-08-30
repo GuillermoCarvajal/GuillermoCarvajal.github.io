@@ -23,11 +23,13 @@ html{
     font-size: 4rem;
     padding: 5rem 0;
     text-align: center;
+    color: white;
 }
 
 .header-principal{
     background-image: url(../img/main-city-copy-2.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100%;
 }
 
@@ -39,6 +41,7 @@ html{
     justify-content: space-between;
     align-items: center;
     padding: 0 25px;
+    /* position: fixed; */
 }
 
 .menu {
@@ -76,15 +79,32 @@ html{
 
 /* Servicios Profesionales */
 .servicios{
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(0, 21, 75);
+}
+
+.servicios__oferta{
+    width: 320px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, .6);
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 1.6rem;
+    box-shadow: 12px 12px 20px 0px rgba(0,0,0,0.75);
 }
 
 .servicios__house{
     width: 380px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 20px 0px rgba(0,0,0,0.75);
 }
 
 .servicios__house__img{
     width: inherit;
+    border-radius: inherit;
 }
 
 .item{
@@ -95,4 +115,13 @@ html{
 
 .item::first-letter{
     color: red;
+}
+
+/* Formación */
+.academica{
+    background-color: rgb(214, 214, 214);
+}
+
+.academica__titulo{
+    color: black;
 }
