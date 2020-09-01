@@ -43,13 +43,13 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 25px;
+    padding: 0 3rem;
 }
 
 .menu {
     display: inherit;
     font-size: 2rem;
-    width: 700px;
+    width: 800px;
     justify-content: space-between;
 }
 
@@ -111,7 +111,7 @@ html{
 
 .item{
     font-size: 2.2rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     list-style: none;
 }
 
@@ -133,13 +133,13 @@ html{
     color: rgb(5, 5, 150);
     font-size: 5rem;
     width: 50%;
+    text-align: initial;
 }
 
 .academica__estudios{
     font-size: 1.6rem;
     width: 50%;
     list-style: none;
-    /* font-weight: 700; */
 }
 
 .academica__estudios__li{
@@ -153,17 +153,43 @@ html{
     left: -12px;
 }
 
-/* Experiencia */
-.experiencia{
-    background-color: rgb(3, 4, 90);
+/* Perfil Profesional */
+.perfil{
+    background-color: rgb(1, 2, 61);
     color: white;
 }
 
-.experiencia__item{
+.perfil__titulo{
+    width: 100%;
+    text-align: initial;
+}
+
+.perfil__lista{
+    width: 70%;
+    padding-left: 40px;
+}
+
+.perfil__img{
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 15px;
+    height: 500px;
+}
+
+.perfil__item{
     list-style: disc;
     font-size: 1.8rem;
 }
 
-.experiencia__item::first-letter{
+.perfil__item::first-letter{
     color: inherit;
+}
+
+/* Contacto */
+.contacto{
+    background-color: #191919;
+}
+
+.contacto__titulo{
+    width: 100%;
+    text-align: initial;
 }
