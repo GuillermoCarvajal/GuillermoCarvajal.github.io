@@ -24,7 +24,8 @@ html{
     font-family: 'Lato', sans-serif;
     font-size: 4rem;
     padding: 5rem 0;
-    text-align: center;
+    text-align: initial;
+    width: 100%;
     color: white;
 }
 
@@ -159,11 +160,6 @@ html{
     color: white;
 }
 
-.perfil__titulo{
-    width: 100%;
-    text-align: initial;
-}
-
 .perfil__lista{
     width: 70%;
     padding-left: 40px;
@@ -187,9 +183,4 @@ html{
 /* Contacto */
 .contacto{
     background-color: #191919;
-}
-
-.contacto__titulo{
-    width: 100%;
-    text-align: initial;
 }
