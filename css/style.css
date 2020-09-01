@@ -152,3 +152,18 @@ html{
     position: absolute;
     left: -12px;
 }
+
+/* Experiencia */
+.experiencia{
+    background-color: rgb(3, 4, 90);
+    color: white;
+}
+
+.experiencia__item{
+    list-style: disc;
+    font-size: 1.8rem;
+}
+
+.experiencia__item::first-letter{
+    color: inherit;
+}
