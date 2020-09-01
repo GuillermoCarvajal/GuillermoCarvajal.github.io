@@ -191,3 +191,26 @@ html{
 .contacto{
     background-color: #191919;
 }
+
+.link{
+    display: inline-block;
+    width: 220px;
+    height: 50px;
+    text-decoration: none;
+    color: inherit;
+    padding-left: 60px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.whatsapp{
+    background-image: url(https://i.imgur.com/Z0dWBlD.png);
+    background-repeat: no-repeat;
+}
+
+.facebook{
+    background-image: url(https://i.imgur.com/FoqLAr8.png);
+    background-repeat: no-repeat;
+}
