@@ -98,7 +98,7 @@ html{
 .nombre{
     font-family: 'Playfair Display', serif;
     color: white;
-    font-size: 5.5rem;
+    font-size: 5rem;
 }
 
 .hero__titulo{
@@ -292,10 +292,12 @@ html{
         display: inherit;
         margin: 4rem 0;
     }
+    .nombre{
+        font-size: 4rem;
+        margin: 0 auto 3rem;
+    }
     .hero__titulo{
         font-size: 7rem;
-        width: 70%;
-        margin: 0 auto;
         text-align: center;
     }
     .servicios__oferta{
@@ -325,5 +327,9 @@ html{
     .hero__titulo{
         font-size: 5rem;
         width: 80vw;
+    }
+    .nombre{
+        font-size: 2.5rem;
+        margin-bottom: 5rem;
     }
 }
