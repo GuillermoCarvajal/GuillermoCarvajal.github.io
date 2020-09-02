@@ -39,7 +39,7 @@ html{
 
 .boton-menu{
     display: none;
-    background-color: rgb(27, 33, 39);
+    background-color: #050b1b;
     color: white;
     font-size: 2rem;
     justify-content: center;
@@ -116,13 +116,13 @@ html{
     box-shadow: 12px 12px 20px 0px rgba(0,0,0,0.75);
 }
 
-.servicios__house{
+.servicios__corpoaval{
     width: 380px;
     border-radius: 20px;
     box-shadow: 12px 12px 20px 0px rgba(0,0,0,0.75);
 }
 
-.servicios__house__img{
+.servicios__corpoaval__img{
     width: inherit;
     border-radius: inherit;
 }
@@ -184,15 +184,15 @@ html{
     color: white;
 }
 
-.perfil__lista{
-    width: 70%;
-    padding-left: 40px;
-}
-
 .perfil__img{
     background-color: rgba(255, 255, 255, .5);
     border-radius: 15px;
     height: 500px;
+}
+
+.perfil__lista{
+    width: 70%;
+    padding-left: 40px;
 }
 
 .perfil__item{
@@ -260,18 +260,20 @@ html{
         width: 100%;
     }
     .menu{
-        display: block;
-        width: 100%;
-        height: auto;
-        text-align: center;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-decoration: underline;
         margin: 0 auto;
-        background-color: rgba(2, 5, 11, 0.8);
+        background-color: rgba(5, 11, 27, .9);
         position: fixed;
         top: 0;
         right: -100vw;
-        width: 100vw;
-        height: 100vh;
         transition: .3s;
+        font-size: 3rem;
     }
     .menu.is-active{
         right: 0;
@@ -279,5 +281,39 @@ html{
     .menu__a{
         display: inherit;
         margin: 4rem 0;
+    }
+    .hero__titulo{
+        font-size: 7rem;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .servicios__oferta{
+        width: 70vw;
+        margin-bottom: 5rem;
+    }
+    .servicios__corpoaval{
+        width: 70vw;
+    }
+    .academica__titulo{
+        width: 100%;
+        text-align: center;
+    }
+    .academica__estudios{
+        width: 80vw;
+    }
+    .perfil__img{
+        display: none;
+    }
+    .perfil__lista{
+        width: 80vw;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 374px){
+    .hero__titulo{
+        font-size: 5rem;
+        width: 80vw;
     }
 }
