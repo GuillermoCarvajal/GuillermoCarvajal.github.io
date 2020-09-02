@@ -30,7 +30,7 @@ html{
 }
 
 .header-principal{
-    background-image: url(../img/main-city-copy-2.jpg);
+    background-image: url(https://i.imgur.com/1yXiAba.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-y: -20px;
@@ -140,7 +140,7 @@ html{
 /* Estudios */
 .academica{
     /* background-color: rgb(233, 233, 233); */
-    background-image: url(../img/Sky-2.jpg);
+    background-image: url(https://i.imgur.com/imehq5b.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 6rem 0;
