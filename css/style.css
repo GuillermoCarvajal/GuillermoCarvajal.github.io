@@ -87,8 +87,18 @@ html{
 .hero{
     height: 600px;
     display: flex;
+}
+
+.hero__container{
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
+}
+
+.nombre{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 5.5rem;
 }
 
 .hero__titulo{
